@@ -1,5 +1,5 @@
 ro=open("小女孩.txt")
-fo=open("小女孩——频次排序.txt","w")
+fo=open("小女孩——频次排序.txt", "w")
 txt=ro.read()
 d={}
 for i in txt:

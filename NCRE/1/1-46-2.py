@@ -1,6 +1,6 @@
 #import jieba
 ro=open("小女孩.txt")
-fo=open("PY301-2.txt","w")
+fo=open("PY301-2.txt", "w")
 txt=ro.read()
 #li=jieba.lcut(txt)
 d={}

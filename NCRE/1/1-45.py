@@ -1,5 +1,5 @@
 txt=input("请输入类型序列：")
-fo=open("PY202.txt","w")
+fo=open("PY202.txt", "w")
 li=txt.split(" ")
 d={}
 for i in li:
