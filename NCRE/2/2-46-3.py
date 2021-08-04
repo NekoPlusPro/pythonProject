@@ -4,7 +4,7 @@ reader.pop(0)
 ls = []
 for i in reader:
     t = i.split(",")
-    t[3] = t[3].replace("\n", '')
+    t[3] = t[3].replace("\n", '')#去除换行符
     ls.append(t)
 while True:
     a = input("请输入节假日序号：")
